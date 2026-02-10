@@ -1,0 +1,54 @@
+body {
+display: flex;
+justify-content: center;   
+}
+
+button {
+margin: 0;
+padding: 0;
+background-color: rgb(255, 255, 255);
+border: 0;
+width:98%;
+height: 98%;
+}
+
+table {
+/* outline: none;
+ border: none; */
+/* border: 200px; 
+border: 2px solid black; 
+border-color: rgb(46, 34, 34);  */
+table-layout: fixed;
+width: 100%;
+height: 100%;
+border-collapse: collapse;
+text-align: center;
+}
+
+/* tr, td {
+border: 5px;
+border-color: black;
+} */
+
+
+
+.telo {
+background-image: url(background1.png);
+background-size: cover; 
+margin: 0;
+padding: 0;
+/* background-color: rgb(170, 170, 170); */
+position: relative;
+display:flex;
+justify-content: center;
+width: 98vh;
+/* height:98vh; */
+ aspect-ratio: 1 / 1
+}
+
+
+/* .pole
+{
+    border: 10px;
+} */
+
